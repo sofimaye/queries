@@ -48,6 +48,7 @@ function Wizard({id}) {
     return (
         <>
             <h1>{wizard.firstName}</h1> <h1>{wizard.lastName}</h1>
+            <h2>Click on the elixir to see the ingredients</h2>
             <table id="table">
                 <tbody>
                 <tr>
