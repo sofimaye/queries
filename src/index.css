@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: gray;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, select, h3, tbody, tr, th, td {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#elixir-name:hover{
+  background-color: gray;
+}
+
+#table{
+  margin: 5vh 0;
+  text-align: center;
+  display: block;
+  background-color: white;
+  table-layout: auto;
 }
