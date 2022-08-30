@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import WizardSearch2 from "./wizardSearch2";
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import Feedback from "./feedback";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <WizardSearch2/>
+    <Feedback/>
   </React.StrictMode>
 );
 
