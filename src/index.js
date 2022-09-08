@@ -4,12 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import Feedback from "./feedback";
+import Pagination from "./pagination";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Feedback/>
-  </React.StrictMode>
+  // <React.StrictMode>
+    <Pagination/>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
