@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import Feedback from "./feedback";
-import Pagination from "./pagination";
+import Pagination2 from "./pagination2";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <Pagination/>
+    <Pagination2/>
   // </React.StrictMode>
 );
 
